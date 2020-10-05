@@ -10,6 +10,6 @@ workflows:
   angular:
     # Run the welcome/run job in its own container
     jobs:
-      - angular/test
+      - angular/test:
           parameters:
             project: ""

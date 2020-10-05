@@ -10,4 +10,4 @@ workflows:
     jobs:
       - angular/test:
           parameters:
-            project: ""
+            project: "angular-tour-of-heroes"
